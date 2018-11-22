@@ -10,56 +10,47 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900" rel="stylesheet"> -->
 </head>
 
-<body>
-  <header class="head sticky-header">
-  <div class="wrapper">
-    <img class="logo_header"src="img/logo.svg" alt="Logo Slack farbig">
-    <nav class="main-nav">
-      <ul>
-        <li><a href="#">Warum Slack?</a></li>
-        <li><a href="#">Preise</a></li>
-        <li><a href="#">Über uns</a></li>
-        <li><a href="#">Finde deinen Workspace</a></li>
-      </ul>
-    </nav>
-    <nav class="main-nav-right">
-      <ul>
-        <li class="nav-button"><a href="www.google.ch">Workspace erstellen</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<body class="wrapper">
+  <header class="center">
+    <h2>CSS Grid Layout</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. .</p>
+    <p>Resize the browser window to see the responsive effect.</p>
+    <p><strong>Note:</strong> The Grid Layout Module is not supported in Internet
+      Explorer or Edge 15 eand earlier versions.</p>
+  </header>
 
   <main>
-    <!-- Einfach zusammenarbeiten -->
-    <section class="wrapper space">
-      <div class="row">
-        <div class="col half half-s">
-          <img class="img-home" src="img/home_illo.de-DE@2x.png" alt="Bild #projekt-mobil Wand">
-        </div>
-
-        <div class="col half half-s">
-          <h1>Einfach zusammenarbeiten</h1>
-            <p class="lead-left">Wenn dein Team ein Projekt starten, neue Mitarbeiter einstellen,
-              Code implementieren, einen Vertrag prüfen, das Budget für
-              das nächste Jahr verabschieden, einen A/B-Test durchführen,
-              die nächste Standort-Eröffnung planen oder eine von vielen
-              weiteren Möglichkeiten nutzen möchte, dann ist Slack genau
-              richtig für euch.
-            </p>
-            <figure class="button-c2a">
-              <p><a href="www.google.ch">LOS GEHT'S</a></p>
-            </figure>
-            <p class="clear-left">Du benutzt Slack bereits? <a href="www.google.ch">Anmelden.</a></p>
-          </div>
-        </div>
+    <div class="">
+      <div class="header">
+        <h2>Header</h2>
       </div>
-    </section>
+    </div>
+
+    <div class="grid-container-2er space">
+      <div class="item-1">ITEM 1</div>
+      <div class="item-2">ITEM 2</div>
+    </div>
+
+    <div class="grid-container-6er space">
+      <div class="left">Column</div>
+      <div class="middle">Column</div>
+      <div class="right">Column</div>
+    </div>
+
+    <div class="grid-container-4er space">
+      <div class="box-1">BOX 1</div>
+      <div class="box-2">BOX 2</div>
+      <div class="box-3">BOX 3</div>
+      <div class="box-4">BOX 4</div>
+    </div>
 
   </main>
 
-  <footer>
-
+  <footer class="">
+    <div class="footer space">
+      <p>Footer</p>
+    </div>
   </footer>
 
 </body>
+</html>
